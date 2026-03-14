@@ -1,0 +1,40 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# C++ build artifacts
+*.o
+*.obj
+*.so
+*.a
+*.dll
+*.dylib
+*.exe
+*.out
+
+# CMake / build system
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Compilation database (generated)
+compile_commands.json
+
+# Project binaries
+nrs_simple
+nrs_engine
+dpi_simple
+dpi_engine
+a.out
+
+# Generated packet captures and outputs
+*.pcap
+
+# Python cache
+__pycache__/
+*.py[cod]
