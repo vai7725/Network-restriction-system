@@ -1,0 +1,114 @@
+:root {
+  color-scheme: light;
+  font-family:
+    Inter,
+    system-ui,
+    -apple-system,
+    Segoe UI,
+    Roboto,
+    sans-serif;
+  line-height: 1.4;
+}
+
+body {
+  margin: 0;
+  background: #f4f6fb;
+  color: #111827;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 24px;
+  display: grid;
+  gap: 20px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 14px rgba(0, 0, 0, 0.06);
+}
+
+.form-grid {
+  display: grid;
+  gap: 12px;
+}
+
+label,
+fieldset {
+  display: grid;
+  gap: 6px;
+  font-weight: 600;
+}
+
+input,
+select,
+button {
+  font: inherit;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+}
+
+button {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.chip {
+  background: #fff;
+}
+
+.chip.selected {
+  background: #2563eb;
+  color: #fff;
+  border-color: #2563eb;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 12px;
+}
+
+.label {
+  margin: 0;
+  color: #6b7280;
+  font-size: 13px;
+}
+
+.code-block {
+  margin: 8px 0;
+  background: #111827;
+  color: #f9fafb;
+  padding: 10px;
+  border-radius: 8px;
+  overflow-x: auto;
+}
+
+.download-link {
+  display: inline-block;
+  margin-top: 8px;
+  color: #1d4ed8;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.error {
+  margin-top: 8px;
+  color: #b91c1c;
+  font-weight: 600;
+}
